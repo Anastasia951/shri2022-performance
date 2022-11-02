@@ -51,21 +51,22 @@ body {
 }
 
 .header__logo {
-  flex: 0 0 auto;
-  width: 6.75rem;
-  height: 2.3125rem;
+  flex: 113px 0 auto;
+  width: 113px;
+  height: 38px;
   margin-right: 3.25rem;
-  background: no-repeat 50% 50% url(assets/logo.svg);
-  background-size: contain;
+  background: url('./assets/css_sprites.png') -10px -10px no-repeat;
+  /* background-size: contain; */
 }
 
 .header__menu {
   display: none;
   width: 3.5rem;
   height: 100%;
+  margin: 0;
+  background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.svg);
   margin: 0 0 0 auto;
   padding: 0;
-  background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.svg);
   border: none;
   border-radius: 0;
   appearance: none;
@@ -389,7 +390,8 @@ body {
 }
 
 .hero-dashboard__icon_rain {
-  background-image: url(assets/cloud-drizzle.svg);
+  width: 26px; height: 26px;
+    background: url('./assets/css_sprites.png') -10px -68px;
 }
 
 .hero-dashboard__schedule {
@@ -456,23 +458,29 @@ body {
 }
 
 .event__icon_temp {
-  background-image: url(assets/icon_temperature.svg);
+  width: 24px; height: 24px;
+    background: url('./assets/css_sprites.png') -143px -54px;
 }
 
 .event__icon_temp2 {
-  background-image: url(assets/icon_temperature_2.svg);
+  width: 24px; height: 24px;
+    background: url('./assets/css_sprites.png') -10px -114px;
 }
 
 .event__icon_light {
-  background-image: url(assets/icon_sun.svg);
+  width: 24px; height: 24px;
+  background: url('./assets/css_sprites.png') -56px -68px;
 }
 
 .event__icon_light2 {
-  background-image: url(assets/icon_sun_2.svg);
+  width: 24px; height: 24px;
+    background: url('./assets/css_sprites.png') -143px -10px;
+
 }
 
 .event__icon_schedule {
-  background-image: url(assets/icon_scheduled.svg);
+  width: 24px; height: 24px;
+    background: url('./assets/css_sprites.png') -54px -114px;
 }
 
 .event__title {
