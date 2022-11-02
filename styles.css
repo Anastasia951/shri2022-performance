@@ -391,7 +391,7 @@ body {
 
 .hero-dashboard__icon_rain {
   width: 26px; height: 26px;
-    background: url('./assets/css_sprites.png') -10px -68px;
+    background: url('./assets/css_sprites-minify.png') -10px -68px;
 }
 
 .hero-dashboard__schedule {
@@ -459,28 +459,28 @@ body {
 
 .event__icon_temp {
   width: 24px; height: 24px;
-    background: url('./assets/css_sprites.png') -143px -54px;
+    background: url('./assets/css_sprites-minify.png') -143px -54px;
 }
 
 .event__icon_temp2 {
   width: 24px; height: 24px;
-    background: url('./assets/css_sprites.png') -10px -114px;
+    background: url('./assets/css_sprites-minify.png') -10px -114px;
 }
 
 .event__icon_light {
   width: 24px; height: 24px;
-  background: url('./assets/css_sprites.png') -56px -68px;
+  background: url('./assets/css_sprites-minify.png') -56px -68px;
 }
 
 .event__icon_light2 {
   width: 24px; height: 24px;
-    background: url('./assets/css_sprites.png') -143px -10px;
+    background: url('./assets/css_sprites-minify.png') -143px -10px;
 
 }
 
 .event__icon_schedule {
   width: 24px; height: 24px;
-    background: url('./assets/css_sprites.png') -54px -114px;
+    background: url('./assets/css_sprites-minify.png') -54px -114px;
 }
 
 .event__title {
