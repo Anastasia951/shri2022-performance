@@ -55,7 +55,7 @@ body {
   width: 113px;
   height: 38px;
   margin-right: 3.25rem;
-  background: url('./assets/css_sprites.png') -10px -10px no-repeat;
+  background: url('./assets/logo.svg') no-repeat;
   /* background-size: contain; */
 }
 
