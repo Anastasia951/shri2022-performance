@@ -104,7 +104,6 @@ body {
 
   .header__links-toggled {
     display: flex;
-    will-change: opacity, transformY;
     animation: hideMenu 0.3s ease-in-out 1;
     animation-fill-mode: both;
   }
@@ -112,7 +111,6 @@ body {
   .header__links_opened {
     display: flex;
     visibility: visible;
-    will-change: opacity, transformY;
     animation: showMenu 0.3s ease-in-out 1;
     animation-fill-mode: both;
   }
@@ -278,7 +276,7 @@ body {
   display: flex;
   gap: 0.9375rem;
   height: 20.6875rem;
-  background: no-repeat 50% 50% url(assets/bg-minified.avif);
+  background: no-repeat 50% 50% url(assets/bg_2x.avif);
   background-size: 1260px;
   border-radius: 1.25rem;
 }
